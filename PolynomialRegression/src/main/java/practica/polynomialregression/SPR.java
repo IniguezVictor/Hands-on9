@@ -32,4 +32,9 @@ public class SPR {
         
         System.out.println("f(x) = " + c.getBeta0() + " + " + c.getBeta1() + "x " + c.getBeta2() + " x^2"); 
     }
+    
+    public void Sustitucion(float x){
+        double resultado = c.getBeta0() + (c.getBeta1() * x) + (c.getBeta2() * Math.pow(x,2));
+        System.out.println("f(" + x + ") = " + resultado);
+    }
 }

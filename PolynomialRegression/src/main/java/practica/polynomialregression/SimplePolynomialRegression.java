@@ -23,6 +23,7 @@ public class SimplePolynomialRegression extends Agent{
         System.out.println("-Agente en accion-");
         SPR Benetton = new SPR();
         Benetton.Metodo();
+        Benetton.Sustitucion(62);
     } 
     
     @Override

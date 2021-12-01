@@ -7,8 +7,8 @@ public class DataSet {
     
     //Constructor
     public DataSet(){
-        this.x = new double[]{-3, -2, -1, 0, 1, 2, 3};
-        this.y = new double[]{7.5, 3, 0.5, 1, 3, 6, 14};
+        this.x = new double[]{50, 50, 50, 70, 70, 70, 80, 80, 80, 90, 90, 90, 100, 100, 100};
+        this.y = new double[]{3.3, 2.8, 2.9, 2.3, 2.6, 2.1, 2.5, 2.9, 2.4, 3.0, 3.1, 2.8, 3.3, 3.5, 3.0};
         this.n = x.length;
     }
     
